@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+        img {
+            height: 100px;
+            width: 100px;
+        }
+        #i {
+            text-align: center;
+        }
+        #p {
+            text-align: justify;
+        }
+        form {
+            text-align: center;
+        }
+        #m {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personal Blog</h1>
+    <p align="center"><img src="logo.png"></p>
+    <hr>
+    <div id="i">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uCM2UC3AyAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe src=https://dasanik70.blogspot.com/" height="315" width="560" > </iframe>
+    </div>
+    <hr>
+    <div id="p">
+        <p>
+            সাধারণভাবে আমরা বই-পত্রে যেভাবে প্যারাগ্রাফ লিখতে দেখি, মূলত সেভাবেই প্যারাগ্রাফ লেখা হয়। 
+            তবে আপনি যদি আরো কয়েকটি বিষয়ের উপর তীক্ষ্ণ নজর দেন,তাহলে পূর্বের চেয়ে ব্যাটার প্যারাগ্রাফ লিখতে পারবেন। 
+            এখন প্রশ্ন আসতে পারে যে, কি কি বিষয়গুলোকে কেন্দ্র করে একটি ভালো ও সৌন্দর্যময় প্যারাগ্রায় লিখতে পারবো? হ্যাঁ, খুবই সিম্পল এটি। 
+            এখানে বেশ কয়েকটি দিককে চিহ্নিত করে দেওয়া হলো, যেগুলোর প্রতি নজর দেওয়ার মাধ্যমে আপনিও বেশ ভালো একটি প্যারাগ্রাফ লিখতে পারবেন।
+            সত্যিকার অর্থে কয়েকটিকে প্যারাগ্রাফকে নির্দিষ্টভাবে কোনো ভাবেই সম্ভব নয় হাহইলাইট করা।
+            যদিও আমাদের মধ্যে অনেকেই আছি, যে কি-না ভিন্ন ভিন্ন প্যারাগ্রাফ এর উপরে বেশ দক্ষ।
+            তবে এই কথা বলে রাখা ভালো যে, খুব শীঘ্রই আমাদের সাইটে বেশ কিছু জনপ্রিয় এবং জ্ঞানগর্ভ প্যারাগ্রাফ বা রচনা নিয়ে আসবো, যেগুলো সম্পর্ণভাবে বাংলা ভাষায় হবে। 
+        </p>
+    </div>
+    <hr>
+    <div id="t">
+        <main>
+            <table>
+                <caption>Students info</caption>
+                <colgroup>
+                    <col span="2" style="background-color:antiquewhite" />
+                </colgroup>
+                <thead>
+                    <tr>
+                        <th scope="col" >ID</th>
+                        <th scope="col">Name</th>
+                        <th scope="col">GPA</th>
+                    </tr>
+                <tbody>
+                    <tr>
+                        <td scope="row">18101070</td>
+                        <td>Anik</td>
+                        <td>3.74</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">18101071</td>
+                        <td>Koyel</td>
+                        <td>3.65</td>
+                    </tr>
+                    <tr>
+                        <td scope="row">18101072</td>
+                        <td>Urmila</td>
+                        <td>3.68</td>
+                    </tr>
+                </tbody>
+                </thead>
+            </table>
+        </main>           
+    </div>
+    <hr>
+<div>
+        <h1 align="center">Form Validation</h1>
+    <form>
+    <div>
+        <label for="fname" >Full Name:</label><br>
+        <input type="text" name="fname" id="fname" required ><br>
+    </div>
+    <br>
+    <div>
+        <label for="lname" >Last Name:</label><br>
+        <input type="text" name="lname" id="lname">
+    </div>
+    <br>
+    <div>
+        <label for="email" >Email:</label><br>
+        <input type="email" name="email" id="email">
+    </div>
+    <br>
+    <div>
+        <label for="password" >Password:</label><br>
+        <input type="password" name="password" id="password">
+    </div>
+    <br>
+    <div>
+        <label for="dob" >Date of Birth:</label><br>
+        <input type="date" name="dob" id="dob">
+    </div>
+    <br>
+    <div>
+        <label for="pic" >Choose your photo:</label><br>
+        <input type="file" name="pic" id="pic">
+    </div>
+    <br>
+    <div>
+        <label for="gender" >Gender:</label><br>
+        <input type="radio" name="gender" id="gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="female">Female
+    </div>
+    <br>
+    <div>
+        <label for="religion" >Religion:</label><br>
+        <input type="checkbox" name="r1" id="hindu" value="hindu">Hindu
+        <input type="checkbox" name="r2" id="muslim" value="muslim">Muslim
+    </div>
+    <br>
+    <div>
+        <label for="dept" >Department:</label><br>
+        <select name="dept"> 
+            <option value="cse" >CSE</option>
+            <option value="eee" >EEE</option>
+            <option value="civil" >CIVIL</option>
+            <option value="bba" >BBA</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="message" >Message:</label><br>
+        <textarea cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </div>
+    </form>
+</div>
+<hr>
+<div id="m">
+    <video width="320" height="240" controls>
+        <source src="BHALO THAKA.mp4" type="video/mp4" >
+    </video>
+    <audio controls>
+        <source src="Phir Mohabbat.mp3" type="audio/mpeg">
+    </audio>
+</div>
+<hr>
+<div id="l">
+    <ol>
+        <li><a href="https://www.google.com/" target="_blank">Google</a><br></li>
+        <li><a href="https://www.youtube.com/" target="_blank">Youtube</a><br></li>
+    </ol>
+</div>
+<p> &copy; copyright by Anik Chandra </p>
+<hr>
+</body>
+</html>
