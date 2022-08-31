@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <style>
+        form {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1 align="center">Form Validation</h1><hr>
+
+    <form>
+    <div>
+        <label for="fname" >Full Name:</label><br>
+        <input type="text" name="fname" id="fname" required ><br>
+    </div>
+    <br>
+    <div>
+        <label for="lname" >Last Name:</label><br>
+        <input type="text" name="lname" id="lname">
+    </div>
+    <br>
+    <div>
+        <label for="email" >Email:</label><br>
+        <input type="email" name="email" id="email">
+    </div>
+    <br>
+    <div>
+        <label for="password" >Password:</label><br>
+        <input type="password" name="password" id="password">
+    </div>
+    <br>
+    <div>
+        <label for="dob" >Date of Birth:</label><br>
+        <input type="date" name="dob" id="dob">
+    </div>
+    <br>
+    <div>
+        <label for="pic" >Choose your photo:</label><br>
+        <input type="file" name="pic" id="pic">
+    </div>
+    <br>
+    <div>
+        <label for="gender" >Gender:</label><br>
+        <input type="radio" name="gender" id="gender" value="male">Male
+        <input type="radio" name="gender" id="gender" value="female">Female
+    </div>
+    <br>
+    <div>
+        <label for="religion" >Religion:</label><br>
+        <input type="checkbox" name="r1" id="hindu" value="hindu">Hindu
+        <input type="checkbox" name="r2" id="muslim" value="muslim">Muslim
+    </div>
+    <br>
+    <div>
+        <label for="dept" >Department:</label><br>
+        <select name="dept"> 
+            <option value="cse" >CSE</option>
+            <option value="eee" >EEE</option>
+            <option value="civil" >CIVIL</option>
+            <option value="bba" >BBA</option>
+        </select>
+    </div>
+    <br>
+    <div>
+        <label for="message" >Message:</label><br>
+        <textarea cols="30" rows="10"></textarea>
+    </div>
+    <br>
+    <div>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Clear">
+    </div>
+    </form>
+    
+</body>
+</html>
