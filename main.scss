@@ -1,67 +1,12 @@
-// $mycolor: aqua;
-
-@mixin heightwidth($value1,$value2,$mycolor){
-    height: $value1;
-    width: $value2;
-    background-color: $mycolor;
-}
-
-@mixin  alignment ($dis,$jus,$gap) {
-    display: $dis;
-    justify-content: $jus;
-    gap: $gap;
-}
-
-@function divided($value){
-    @return ($value/2) +px;
-}
-
-h1{
-    color: #A928F3;
-    text-align: center;
-}
-
-.ele{
-    @include alignment (flex,center,3px);
-    .ele1 {
-        @include heightwidth(200px,300px,#FFBD33); 
-    }
-    .ele2 {
-        @include heightwidth(200px,300px,#DBFF33);    
-    }
-    .ele3 {
-        @include heightwidth(200px,300px,#FF5733);
-    }
-
-}
-.box{
-    @include alignment (flex,center,3px);
-    .box1{
-        height:200px;
-        width:300px;
-        background-color: #DBFF33;
-    }
-    .box2{
-        background-color: #FF5733;
-        @extend .box1;
-    }
-    .box3{
-        background-color: #FFBD33;
-        @extend .box1;    
-    }    
-}
-
-.fun{
-    @include alignment (flex,center,3px);
-    .fun1{
-        height: divided(400);
-        width: 300px;
-        background-color: #A928F3;
-    }
-    .fun2{
-        @extend .fun1;
-    }
-    .fun3{
-        @extend .fun1 
+.logo{
+    margin: 0%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    height: 5px;
+    width: 5px;    
+    .title{
+        text-align: center;
+        color:	#483D8B ;
     }
 }

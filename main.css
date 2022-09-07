@@ -1,53 +1,12 @@
-h1 {
-  color: #A928F3;
+.logo {
+  margin: 0%;
+  padding: 0px;
+  display: flex;
+  align-items: center;
+  height: 5px;
+  width: 5px;
+}
+.logo .title {
   text-align: center;
-}
-
-.ele {
-  display: flex;
-  justify-content: center;
-  gap: 3px;
-}
-.ele .ele1 {
-  height: 200px;
-  width: 300px;
-  background-color: #FFBD33;
-}
-.ele .ele2 {
-  height: 200px;
-  width: 300px;
-  background-color: #DBFF33;
-}
-.ele .ele3 {
-  height: 200px;
-  width: 300px;
-  background-color: #FF5733;
-}
-
-.box {
-  display: flex;
-  justify-content: center;
-  gap: 3px;
-}
-.box .box1, .box .box3, .box .box2 {
-  height: 200px;
-  width: 300px;
-  background-color: #DBFF33;
-}
-.box .box2 {
-  background-color: #FF5733;
-}
-.box .box3 {
-  background-color: #FFBD33;
-}
-
-.fun {
-  display: flex;
-  justify-content: center;
-  gap: 3px;
-}
-.fun .fun1, .fun .fun3, .fun .fun2 {
-  height: 200px;
-  width: 300px;
-  background-color: #A928F3;
+  color: #483D8B;
 }/*# sourceMappingURL=main.css.map */
